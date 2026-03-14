@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panelPrincipal>
+        <titulo texto="Enviar Archivos" />
+        
+        <panelBusqueda>
+            <campoTexto id="labelRuta" />
+            <boton id="botonBuscar" texto="Buscar Archivo" />
+        </panelBusqueda>
+        
+        <panelArrastrarYSoltar>
+            <etiqueta texto="Arrastra y suelta un archivo aquí" />
+        </panelArrastrarYSoltar>
+        
+        <tabla>
+            <columna nombre="Nombre de archivo" />
+            <columna nombre="Tamaño (KB)" />
+            <columna nombre="Extensión" />
+        </tabla>
+        
+        <panelSeleccionContacto>
+            <etiqueta texto="Seleccionar contacto:" />
+            <comboBox id="contactosComboBox" />
+        </panelSeleccionContacto>
+        
+        <panelBotones>
+            <boton id="enviarButton" texto="Enviar" />
+            <boton id="limpiarButton" texto="Limpiar" />
+        </panelBotones>
+    </panelPrincipal>
+</ventana>

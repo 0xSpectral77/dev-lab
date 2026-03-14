@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panelPrincipal>
+        <titulo texto="Historial Criptográfico" />
+
+        <tabla>
+            <columna nombre="Nombre Usuario" />
+            <columna nombre="Nombre de Archivo" />
+            <columna nombre="Tipo de Acción" />
+            <columna nombre="Fecha" />
+        </tabla>
+
+        <panelBotones>
+            <boton id="limpiarHistorialButton" texto="Limpiar Historial" />
+        </panelBotones>
+    </panelPrincipal>
+</ventana>

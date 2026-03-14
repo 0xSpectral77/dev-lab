@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panelPrincipal>
+        <titulo texto="Historial de Sesiones" />
+
+        <tabla>
+            <columna nombre="Nombre Usuario" />
+            <columna nombre="Fecha y Hora Inicio" />
+            <columna nombre="Fecha y Hora Fin" />
+        </tabla>
+
+        <panelBotones>
+            <boton id="eliminarSesionButton" texto="Limpiar Historial" />
+        </panelBotones>
+    </panelPrincipal>
+</ventana>

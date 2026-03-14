@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ventana>
+    <panelPrincipal>
+        <titulo texto="Historial de Transferencias" />
+        
+        <tabla>
+            <columna nombre="Nombre Usuario" />
+            <columna nombre="Contacto" />
+            <columna nombre="Nombre de Archivo" />
+            <columna nombre="Fecha" />
+            <columna nombre="Tipo de Acción" />
+        </tabla>
+        
+        <panelBotones>
+            <boton id="limpiarHistorialButton" texto="Limpiar Historial" />
+        </panelBotones>
+    </panelPrincipal>
+</ventana>

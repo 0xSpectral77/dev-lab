@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panelPrincipal>
+        <titulo texto="Cifrar Archivos" />
+        
+        <panelBusqueda>
+            <campoTexto id="etiquetaRutaArchivo" />
+            <boton id="botonBuscar" texto="Buscar Archivo" />
+        </panelBusqueda>
+
+        <panelArrastrarYSoltar>
+            <etiqueta texto="Arrastra y suelta un archivo aquí" />
+        </panelArrastrarYSoltar>
+
+        <tabla>
+            <columna nombre="Nombre de archivo" />
+            <columna nombre="Tamaño (KB)" />
+            <columna nombre="Extensión" />
+        </tabla>
+
+        <panelBotones>
+            <boton id="cifrarButton" texto="Cifrar" />
+            <boton id="eliminarButton" texto="Limpiar Archivo" />
+        </panelBotones>
+    </panelPrincipal>
+</ventana>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ventana>
+    <panelPrincipal>
+        <titulo texto="Contactos" />
+
+        <tabla>
+            <columna nombre="Nombre" />
+            <columna nombre="Correo" />
+            <columna nombre="Teléfono" />
+            <columna nombre="IP" />
+        </tabla>
+
+        <panelBotones>
+            <boton id="agregarContactoButton" texto="Agregar Contacto" />
+            <boton id="eliminarContactoButton" texto="Eliminar Contacto" />
+        </panelBotones>
+    </panelPrincipal>
+</ventana>

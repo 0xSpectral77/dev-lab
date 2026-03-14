@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panelPrincipal>
+        <titulo texto="Recibir Archivos" />
+        
+        <panelBotones>
+            <boton id="recibirButton" texto="Recibir Archivo" />
+            <boton id="cerrarButton" texto="Cerrar Conexión" />
+        </panelBotones>
+    </panelPrincipal>
+</ventana>

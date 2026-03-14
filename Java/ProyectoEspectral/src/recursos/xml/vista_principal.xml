@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panelPrincipal>
+        <titulo texto="Espectral - Menú Principal" />
+
+        <panelMenu>
+            <boton id="btnCifrar" texto="Cifrar Archivos"/>
+            <boton id="btnDescifrar" texto="Descifrar Archivos"/>
+            <boton id="btnHistorialCifrados" texto="Historial Criptográfico"/>
+            <boton id="btnEnviar" texto="Enviar Archivos"/>
+            <boton id="btnRecibir" texto="Recibir Archivos"/>
+            <boton id="btnHistorialTransferencias" texto="Historial de Transferencias"/>
+            <boton id="btnContactos" texto="Contactos"/>
+            <boton id="btnHistorialSesiones" texto="Historial de Sesiones"/>
+            <boton id="btnEditarPerfil" texto="Editar Perfil"/>
+            <boton id="btnCerrarSesion" texto="Cerrar Sesión"/>
+        </panelMenu>
+
+        <panelContenido tipo="CardLayout">
+            <vista id="vistaCifrar" nombre="Cifrar Archivos"/>
+            <vista id="vistaDescifrar" nombre="Descifrar Archivos"/>
+            <vista id="vistaHistorialCifrados" nombre="Historial Criptográfico"/>
+            <vista id="vistaEnviar" nombre="Enviar Archivos"/>
+            <vista id="vistaRecibir" nombre="Recibir Archivos"/>
+            <vista id="vistaHistorialTransferencias" nombre="Historial de Transferencias"/>
+            <vista id="vistaContactos" nombre="Contactos"/>
+            <vista id="vistaHistorialSesiones" nombre="Historial de Sesiones"/>
+            <vista id="vistaEditarPerfil" nombre="Editar Perfil"/>
+        </panelContenido>
+    </panelPrincipal>
+</ventana>

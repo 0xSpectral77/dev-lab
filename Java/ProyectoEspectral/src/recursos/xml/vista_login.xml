@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panel>
+        <etiqueta id="usuario" />
+        <etiqueta id="contraseña" />
+        <boton id="login" />
+        <etiqueta id="Crear cuenta" />
+    </panel>
+</ventana>

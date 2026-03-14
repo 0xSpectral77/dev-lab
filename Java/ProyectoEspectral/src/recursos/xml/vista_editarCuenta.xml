@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panel>
+        <etiqueta id="usuario" texto="Usuario"/>
+        <campo id="txtUsuario" tipo="texto"/>
+
+        <etiqueta id="contraseña" texto="Contraseña"/>
+        <campo id="txtContraseña" tipo="contraseña"/>
+
+        <etiqueta id="confirmarContraseña" texto="Confirmar Contraseña"/>
+        <campo id="txtConfirmarContraseña" tipo="contraseña"/>
+
+        <etiqueta id="email" texto="Correo electrónico"/>
+        <campo id="txtEmail" tipo="texto"/>
+
+        <etiqueta id="telefono" texto="Teléfono"/>
+        <campo id="txtTelefono" tipo="texto"/>
+
+        <boton id="btnRegistrar" texto="Registrar"/>
+
+        <etiqueta id="login" texto="¿Ya tienes cuenta? Inicia sesión aquí"/>
+    </panel>
+</ventana>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventana>
+    <panel>
+        <etiqueta id="lblNombre"/>
+        <campoTexto id="txtNombre"/>
+        
+        <etiqueta id="lblIP"/>
+        <campoTexto id="txtIP"/>
+        
+        <etiqueta id="lblCorreo"/>
+        <campoTexto id="txtCorreo"/>
+        
+        <etiqueta id="lblTelefono"/>
+        <campoTexto id="txtTelefono"/>
+        
+        <boton id="botonGuardar"/>
+        <etiqueta id="lblAtras"/>
+    </panel>
+</ventana>
